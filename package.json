@@ -1,0 +1,29 @@
+{
+  "name": "ts-mongodb",
+  "version": "1.0.0",
+  "description": "Ejemplo de API ts con mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiedra/TS-Mongodb.git"
+  },
+  "author": "apiedra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apiedra/TS-Mongodb/issues"
+  },
+  "homepage": "https://github.com/apiedra/TS-Mongodb#readme",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
+    "@types/mongoose": "^5.5.17"
+  }
+}
