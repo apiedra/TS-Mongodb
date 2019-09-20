@@ -1,0 +1,27 @@
+{
+  "numero_cuenta": "1111111",
+  "id_envio": "0235653232356",
+  "estado": "exitosa",
+  "nom_reporte": "TCR00101",
+  "trazabilidad": [
+    {
+      "servicio": "statement-data",
+      "hora_inicio": "10/10/10 00:00:00",
+      "hora_final": "10/10/10 00:00:00"
+    },
+    {
+      "servicio": "statement-template",
+      "hora_inicio": "10/10/10 00:00:00",
+      "hora_final": "10/10/10 00:00:00"
+    },
+    {
+      "servicio": "statement-log",
+      "hora_inicio": "10/10/10 00:00:00",
+      "hora_final": "10/10/10 00:00:00"
+    }
+  ],
+  "error": {
+    "codigo": "",
+    "mensaje": ""
+  }
+}

@@ -6,9 +6,8 @@ export let addLog = (req: Request, res: Response) => {
     log.save((err: any) => {
         if (err) {
             console.log(err)
-        } else {
-            console.log(log);
         }
     });
+    
     res.send("Cuenta procesada");
 };

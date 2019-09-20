@@ -1,0 +1,50 @@
+{
+  "id_envio": "0235653232356",
+  "banco": "CR1",
+  "fecha_inicio": "10/10/10 00:00:00",
+  "fecha_final": "10/10/10 00:00:00",
+  "cuenta_inicio": "1000011",
+  "cuenta_final": "99999999",
+  "total_cuentas": 100,
+  "cuentas_procesadas": 8,
+  "cuentas_exitosas": 3,
+  "cuentas_con_error": 2,
+  "cuentas_con_alerta": 0,
+  "cuentas_por_procesar": 0,
+  "estado_del_envio": "cargando",
+  "mes_corte" : 10,
+  "ano_corte" : 2019,
+  "fecha_corte" : "10/10/10 00:00:00",
+  "usuario" : "APIEDRA",  
+  "reenvios": [
+    "0235653232356",
+    "0235653232357",
+    "0235653232359"
+  ],
+  "filtros" : [
+    {
+      "nombre": "codigo_compania",
+      "valor": "1"
+    },
+    {
+      "nombre": "formato",
+      "valor": "pdf"
+    },
+    {
+      "nombre": "marca",
+      "valor": "visa"
+    },
+    {
+      "nombre": "tipo_envio",
+      "valor": "xf"
+    },
+    {
+      "nombre": "codigo_emisor",
+      "valor": "001"
+    }
+  ],
+  "error": {
+    "codigo": "",
+    "mensaje": ""
+  }
+}

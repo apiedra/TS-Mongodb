@@ -1,7 +1,7 @@
 import * as mongoose from "mongoose";
 import { logDocument } from "../model/logDocument";
 import { logSchema } from "../model/logSchema";
-import { connect } from "mongoose";
+import { connect, Schema } from "mongoose";
 
 const uri: string = "mongodb://127.0.0.1:27017/log";
 
@@ -13,5 +13,6 @@ connect(uri, { useNewUrlParser: true }, (err: any) => {
     }
   });
 
-const logModel = mongoose.model<logDocument>("Log", logSchema);
+var schema = new mongoose.Schema({ any: Schema.Types.Mixed }, { strict: false });
+const logModel = mongoose.model("LogEstadoCuenta", schema);
 export {logModel};
